@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Gossip - Secure Messenger",
+  "version": "1.0.0",
+  "description": "End-to-End Encrypted Messenger with 10GB Local Storage & Offline P2P Mode",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "assets/icon.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "camera",
+    "microphone",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

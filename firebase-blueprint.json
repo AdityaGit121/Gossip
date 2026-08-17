@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "User": {
+      "fields": {
+        "userID": { "type": "string" },
+        "name": { "type": "string" },
+        "username": { "type": "string" },
+        "email": { "type": "string" },
+        "passwordHash": { "type": "string" },
+        "bio": { "type": "string" },
+        "profilePicture": { "type": "string" },
+        "online": { "type": "boolean" },
+        "lastSeen": { "type": "string" },
+        "createdAt": { "type": "string" }
+      }
+    },
+    "Chat": {
+      "fields": {
+        "participants": { "type": "array" },
+        "participantIDs": { "type": "array" },
+        "unreadCount": { "type": "map" },
+        "pinnedBy": { "type": "array" },
+        "isGroup": { "type": "boolean" },
+        "groupName": { "type": "string" },
+        "groupAdminID": { "type": "string" },
+        "groupImage": { "type": "string" },
+        "disappearingTimer": { "type": "number" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "Message": {
+      "fields": {
+        "chatId": { "type": "string" },
+        "senderID": { "type": "string" },
+        "receiverID": { "type": "string" },
+        "messageType": { "type": "string" },
+        "text": { "type": "string" },
+        "encrypted": { "type": "boolean" },
+        "audioURL": { "type": "string" },
+        "audioDuration": { "type": "number" },
+        "locationData": { "type": "map" },
+        "fileData": { "type": "map" },
+        "disappearingTimer": { "type": "number" },
+        "expiresAt": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "reactions": { "type": "map" },
+        "status": { "type": "string" }
+      }
+    }
+  }
+}

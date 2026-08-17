@@ -1,0 +1,6 @@
+{
+  "name": "Gossip",
+  "description": "Secure real-time messaging platform with permanent Firebase Firestore database storage, Caesar Cipher encryption, and WhatsApp-style cloud backups",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

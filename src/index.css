@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Geist', sans-serif;
+    background-color: #0b0c10;
+    color: #ffffff;
+  }
+
+  code, kbd, samp, pre {
+    font-family: 'Geist Mono', monospace;
+  }
+}
+
+@layer utilities {
+  /* Liquid intelligence glassmorphism & accent utilities */
+  .font-mono {
+    font-family: 'Geist Mono', monospace;
+  }
+
+  .accent-cyan {
+    color: #00e5ff;
+  }
+
+  .bg-cyan-accent {
+    background-color: #00e5ff;
+  }
+
+  .border-cyan-accent {
+    border-color: rgba(0, 229, 255, 0.3);
+  }
+
+  /* Custom scrollbars for Liquid Intelligence theme */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 229, 255, 0.3);
+  }
+}
+
